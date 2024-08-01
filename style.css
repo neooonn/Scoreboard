@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1B1A55;
+    width: 100%;
+    height: 40rem
+}
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+.home, .away{
+    font-size: 4rem;
+    padding: 65px;
+    margin-bottom: 30px;
+    color: #9290C3;
+}
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.period {
+    font-size: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #1B1A55;
+    color: red;
+}
+.homescore, .guestscore, .period {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Orbitron";
+}
+.homescore, .guestscore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height: 70px;
+    width: 100px;
+    background-color: black;
+    color: red;
+    font-family: "Orbitron";
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid white
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add, .minus {
+    font-size: 2rem;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #1B1A55;
+    color: #9290C3;
+    width: 4rem;
+    transition: 0.4s;
+}
+.add:hover {
+    color: rgb(12, 204, 12);
+    border: 1px solid rgb(12, 204, 12);
+}
+.minus:hover {
+    color: red;
+    border: 1px solid red;
+}

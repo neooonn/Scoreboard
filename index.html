@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+        <div class="card">
+            <div class="heading">
+                <div class="home">HOME</div>
+                <div class="away">GUEST</div>
+            </div>
+            <div class="score">
+                <div id="homescore-el" class="homescore">0</div>
+                <div id="period-el" class="period">1st</div>
+                <div id="guestscore-el" class="guestscore">0</div>
+            </div>
+            <div class="buttons">
+                <div class="leftside">
+                    <button onclick="addleft()" class="add">+1</button>
+                    <button onclick="minusleft()" class="minus">-1</button>
+
+                </div>
+                <div class="rightside">
+                    <button onclick="addright()" class="add">+1</button>
+                    <button onclick="minusright()" class="minus">-1</button>
+
+                </div>
+            </div>
+
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
